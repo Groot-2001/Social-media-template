@@ -2,9 +2,11 @@
 This is the frontend for creating Social-media web application 
 
 # technologies that used:
--react
--html
--css
--javascript
+-react <br/>
+-html   <br/>
+-css    <br/>
+-javascript <br/>
 
-# Another change
+# Assets
+- material ui <br/>
+- google fonts

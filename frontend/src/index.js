@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Home from './pages/Home/Home';
 
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <App/>
+  <React.StrictMode>
+    <App />
+    <Home/>
+  </React.StrictMode>
 );
 
