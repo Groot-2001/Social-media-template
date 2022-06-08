@@ -1,12 +1,13 @@
 # Social-media-template
-This is the frontend for creating Social-media web application 
+This is the frontend for creating Social-media web application <br/>
+This Product is still under process...
 
 # technologies that used:
--react <br/>
--html   <br/>
--css    <br/>
--javascript <br/>
+- react <br/>
+- html   <br/>
+- css    <br/>
+- javascript <br/>
 
-# Assets
+# Resources
 - material ui <br/>
 - google fonts
