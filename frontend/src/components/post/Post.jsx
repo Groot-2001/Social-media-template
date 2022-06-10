@@ -6,6 +6,12 @@ import { useState } from "react";
 export default function Post({post}) {
   const [like,setlike] = useState(post.like);
   const [islike,setislike] = useState(false);
+
+  const likehandler = () =>{
+    setlike(islike? like+1 : like-1);
+    setislike(!islike);
+  }
+
   return (
     <div className="post">
       <div className="post-wrapper">
@@ -25,8 +31,8 @@ export default function Post({post}) {
         </div>
         <div className="post-bottom">
           <div className="post-bottom-left">
-            <img src="/assets/like.png" alt="" className="post-reaction" />
-            <img src="/assets/heart.png" alt="" className="post-reaction" />
+            <img src="/assets/like.png" alt="" onClick={likehandler} className="post-reaction" />
+            <img src="/assets/heart.png" alt="" onClick={likehandler} className="post-reaction" />
             <span className="post-reaction-counter">{like} people liked it</span>
           </div>
           <div className="post-bottom-right">
