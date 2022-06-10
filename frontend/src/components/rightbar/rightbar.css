@@ -34,3 +34,13 @@
     padding: 0;
     list-style: none;
 }
+.rightbar-side-title{
+    margin-left: 10px;
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightbar-info,.friends-followings{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

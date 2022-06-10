@@ -1,7 +1,8 @@
+import Profile from "./pages/profile/Profile";
 
 
 function App() {
-  return ;
+  return <Profile/> ;
 }
 
 export default App;
