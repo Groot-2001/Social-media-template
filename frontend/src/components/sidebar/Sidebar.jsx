@@ -1,5 +1,7 @@
-import "./sidebar.css"
+import "./sidebar.css";
 import {RssFeed,Chat,PlayCircleFilledOutlined,WorkOutline,HelpOutline,Group,Bookmark,School,Event} from "@material-ui/icons"
+import { user } from "../../dummyData";
+import ClosedFriends from "../ClosedFriends/ClosedFriends";
 
 
 export default function Sidebar() {
@@ -47,30 +49,9 @@ export default function Sidebar() {
        <button className="sidebar-button">Show more</button>
        <hr className="sidebar-horizontal"/>
        <ul className="sidebar-friends">
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/2.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/3.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/4.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/5.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/1.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
-         <li className="sidebar-friends-list">
-           <img src="/assets/person/2.jpeg" alt="" className="sidebar-friends-img" />
-           <span className="sidebar-friend-name">Shiva Silmawala</span>
-         </li>
+        {user.map(u =>(
+          <ClosedFriends key={u.id} user={u}/>
+        ))}
        </ul>
       </div>
     </div>

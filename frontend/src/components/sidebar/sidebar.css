@@ -1,9 +1,9 @@
 .sidebar{
-    position: sticky;
-    top: 50px;
     flex: 3;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    position: sticky;
+    top: 50px;
 }
 
 ::-webkit-scrollbar{
@@ -52,16 +52,4 @@
     padding: 0;
     margin: 0;
     list-style: none;
-}
-.sidebar-friends-list{
-    display: flex; 
-    align-items: center;
-    margin-bottom: 15px;
-}
-.sidebar-friends-img{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 15px;
 }

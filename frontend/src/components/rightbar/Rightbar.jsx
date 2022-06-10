@@ -1,4 +1,6 @@
 import "./rightbar.css"
+import Online from "../online/Online";
+import {user} from "../../dummyData";
 
 export default function Righbar() {
   return (
@@ -14,41 +16,10 @@ export default function Righbar() {
       </div>
       <h4 className="rightbar-title">Online Friends</h4>
       <ul className="rightbar-friends-list">
-        <li className="rightbar-friends">
-          <div className="rightbar-img-container">
-            <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
-            <span className="friends-online"></span>
-          </div>
-          <span className="username">Jhonny sins</span>
-        </li>
-        <li className="rightbar-friends">
-          <div className="rightbar-img-container">
-            <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
-            <span className="friends-online"></span>
-          </div>
-          <span className="username">Jhonny sins</span>
-        </li>
-        <li className="rightbar-friends">
-          <div className="rightbar-img-container">
-            <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
-            <span className="friends-online"></span>
-          </div>
-          <span className="username">Jhonny sins</span>
-        </li>
-        <li className="rightbar-friends">
-          <div className="rightbar-img-container">
-            <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
-            <span className="friends-online"></span>
-          </div>
-          <span className="username">Jhonny sins</span>
-        </li>
-        <li className="rightbar-friends">
-          <div className="rightbar-img-container">
-            <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
-            <span className="friends-online"></span>
-          </div>
-          <span className="username">Jhonny sins</span>
-        </li>
+        {user.map(u=>(
+          <Online key={u.id} user={u}/>
+        ))}
+        
       </ul>
     </div>
   )

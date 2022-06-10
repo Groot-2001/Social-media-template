@@ -2,8 +2,6 @@
     flex:5.5;
     height: calc(100vh - 50px);
     overflow-y: scroll;
-    position: sticky;
-    top: 50px;
 }
 
 .feed-wrapper{
