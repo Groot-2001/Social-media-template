@@ -29,6 +29,12 @@
     color: orangered;
     margin-bottom: 20px;
 }
+.friends-pic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
 .rightbar-friends-list{
     margin: 0;
     padding: 0;
@@ -42,5 +48,25 @@
 }
 .rightbar-info,.friends-followings{
     margin-left: 10px;
+    margin-bottom: 30px;
+}
+.rightbar-info-item{
     margin-bottom: 10px;
+}
+.rightbar-info-key{
+    font-weight: 500;
+    margin-right: 15px;
+    color: rgb(136, 93, 13);
+}
+.rightbar-info-value{
+    font-weight: 300;
+}
+.friends-followings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.friends{
+    display: flex;
+    flex-direction: column;
 }

@@ -47,23 +47,27 @@ export default function Righbar({profile}) {
       <h4 className="rightbar-side-title">Friends</h4>
       <div className="friends-followings">
         <div className="friends">
-          <img src="/assets/person/1.jpeg" alt="" className="friends-img" />
+          <img src="/assets/person/1.jpeg" alt="" className="friends-pic" />
           <span className="friend-name">Jhon carter</span>
         </div>
         <div className="friends">
-          <img src="/assets/person/2.jpeg" alt="" className="friends-img" />
+          <img src="/assets/person/2.jpeg" alt="" className="friends-pic" />
           <span className="friend-name">Jhon carter</span>
         </div>
         <div className="friends">
-          <img src="/assets/person/3.jpeg" alt="" className="friends-img" />
+          <img src="/assets/person/3.jpeg" alt="" className="friends-pic" />
           <span className="friend-name">Jhon carter</span>
         </div>
         <div className="friends">
-          <img src="/assets/person/4.jpeg" alt="" className="friends-img" />
+          <img src="/assets/person/4.jpeg" alt="" className="friends-pic" />
           <span className="friend-name">Jhon carter</span>
         </div>
         <div className="friends">
-          <img src="/assets/person/5.jpeg" alt="" className="friends-img" />
+          <img src="/assets/person/5.jpeg" alt="" className="friends-pic" />
+          <span className="friend-name">Jhon carter</span>
+        </div>
+        <div className="friends">
+          <img src="/assets/person/5.jpeg" alt="" className="friends-pic" />
           <span className="friend-name">Jhon carter</span>
         </div>
       </div>
