@@ -47,8 +47,8 @@ export default function Righbar({profile}) {
       <h4 className="rightbar-side-title">Friends</h4>
       <div className="friends-followings">
         <div className="friends">
-          <img src="/assets/person/1.jpeg" alt="" className="friends-pic" />
-          <span className="friend-name">Jhon carter</span>
+          <img src="/assets/person/icon.png" alt="" className="friends-pic" />
+          <span className="friend-name">You</span>
         </div>
         <div className="friends">
           <img src="/assets/person/2.jpeg" alt="" className="friends-pic" />
@@ -77,7 +77,7 @@ export default function Righbar({profile}) {
   return (
     <div className="rightbar">
       <div className="rightbar-wrapper">
-        <ProfileRightbar/>
+        <HomeRightbar/>
       </div>
     </div>
   )

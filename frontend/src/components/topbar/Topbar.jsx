@@ -40,7 +40,7 @@ export default function Topbar() {
 
           </div>
 
-          <img src="/assets/person/1.jpeg" alt="" className="topbar-Img" />
+          <img src="/assets/person/icon.png" alt="" className="topbar-Img" />
         </div>
     </div>
   )

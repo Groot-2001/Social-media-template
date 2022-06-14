@@ -14,7 +14,7 @@ export default function Profile() {
             <div className="profile-right-top">
                 <div className="profile-cover">
                     <img src="/assets/post/1.jpeg" alt="" className="profile-cover-img" />
-                    <img src="/assets/person/5.jpeg" alt="" className="profile-user-img" />
+                    <img src="/assets/person/icon.png" alt="" className="profile-user-img" />
                 </div>
                 <div className="profile-info">
                     <div className="profile-info-username"><b>Shiva Silmawala</b> </div>
