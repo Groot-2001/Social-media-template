@@ -1,5 +1,8 @@
 # Social-media-template
-This is the frontend for creating Social-media web application.This product is still some defactorization is needed which i'll be add soon.until then if anyone wants to use this template for your project its available for all.Happy coding :)<br/>
+This is the frontend for creating Social-media web application.
+This product is still need some defactorization.
+which i'll be add soon.
+until then if anyone wants to use this template for your project its available for all.Happy coding :)<br/>
 
 # technologies that used:
 <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"> React<br/>
